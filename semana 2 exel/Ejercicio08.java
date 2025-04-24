@@ -1,0 +1,12 @@
+import javax.swing.JOptionPane;
+public class Ejercicio08 {
+    public static void main(String[] args) {
+        int n=Integer.parseInt(JOptionPane.showInputDialog("ingrese un numero de 3 digitos:"));
+
+        int c=n/100;
+        int d=(n%100)/10;
+        int u=n%10;
+
+        JOptionPane.showMessageDialog(null, "El numero invertido es: "+u+d+c);
+    }
+}
