@@ -1,5 +1,5 @@
-/* 
-Obtener el IGV (18%) de una venta si esta es superior a S/ 150,000.00 aplicar un descuento del 25 %.
+/* Obtener el IGV (18%) de una venta si esta es superior a S/ 150,000.00 aplicar un descuento 
+del 25 %.
 */
 import javax.swing.JOptionPane;
 public class F25Venta {

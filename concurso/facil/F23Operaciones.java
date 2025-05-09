@@ -1,9 +1,7 @@
 /* Algoritmo que lea dos números, calculando y escribiendo el valor de su suma, resta, 
 producto y división.
 */
-
 import javax.swing.JOptionPane;
-
 public class F23Operaciones {
     public static void main(String[] args) {
         int n1=Integer.parseInt(JOptionPane.showInputDialog("Ingresa el primer numero:"));

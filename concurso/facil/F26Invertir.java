@@ -1,5 +1,5 @@
-/*
-
+/*Dado un número natural de dos cifras, diseñe un algoritmo que permita obtener el número 
+invertido. Ejemplo si se ingresa 23 que se muestre 32.
 */
 import javax.swing.JOptionPane;
 public class F26Invertir {

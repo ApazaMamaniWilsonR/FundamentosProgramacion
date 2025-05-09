@@ -1,16 +1,25 @@
-import java.util.*;
-
+/* Dado un listado de números, encuentra el SEGUNDO más grande       
+*/       
+import java.util.List;
 public class F16 {
-    public static void main(String[] args) {
-        System.out.println(findSecondGreater(List.of(4, 6, 1, 8, 10))); // 8
-        System.out.println(findSecondGreater(List.of(4, 4, 4, 4, 4))); // null
-    }
+    public static Integer findSecondGreater(List<Integer> numeros) {
+        if (numeros == null || numeros.size() < 2) return null;
 
-    public static Integer findSecondGreater(List<Integer> list) {
-        Set<Integer> set = new HashSet<>(list);
-        if (set.size() < 2) return null;
-        List<Integer> sortedList = new ArrayList<>(set);
-        Collections.sort(sortedList, Collections.reverseOrder());
-        return sortedList.get(1);
+        Integer mayor = null;
+        Integer segundoMayor = null;
+
+        for (Integer num : numeros) {
+            if (mayor == null || num > mayor) {
+                segundoMayor = mayor;
+                mayor = num;
+            } else if ((num < mayor) && (segundoMayor == null || num > segundoMayor)) {
+                segundoMayor = num;
+            }
+        }
+        return segundoMayor;
+    }
+    public static void main(String[] args) {
+        System.out.println(findSecondGreater(List.of(4, 6, 1, 8, 10)));
+        System.out.println(findSecondGreater(List.of(4, 4, 4, 4, 4)));
     }
 }
