@@ -1,20 +1,19 @@
+/*Escribe una función que calcule si un número dado es un número de Armstrong 
+(o también llamado narcisista).
+*/
+import javax.swing.JOptionPane;
 public class F07Armstrong {
     public static void main(String[] args) {
-        System.out.println(isArmstrong(371));  // true
-        System.out.println(isArmstrong(-371)); // false
-        System.out.println(isArmstrong(372));  // false
-        System.out.println(isArmstrong(0));    // true
-    }
-
-    public static boolean isArmstrong(int num) {
-        int original = num;
-        int sum = 0;
-        int n = String.valueOf(num).length();
-        while (num > 0) {
-            int digit = num % 10;
-            sum += Math.pow(digit, n);
-            num /= 10;
+        String num=JOptionPane.showInputDialog("Ingrese un numero: ");
+        int suma=0;
+        for (int i = 0; i < num.length(); i++) {
+            int dig=Integer.parseInt(String.valueOf(num.charAt(i)));
+            suma+=Math.pow(dig,num.length());
         }
-        return original == sum;
+        if (suma==Integer.parseInt(num)) {
+            System.out.println("true");
+        } else {
+            System.out.println("false");
+        }
     }
 }

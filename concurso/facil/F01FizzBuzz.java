@@ -1,19 +1,21 @@
+/*Escribe un programa que muestre por consola (con un print) los números de 1 a 50 
+(ambos incluidos y con un salto de línea entre cada impresión), sustituyendo los siguientes:
+- Múltiplos de 3 por la palabra "fizz".
+- Múltiplos de 5 por la palabra "buzz".
+- Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".*/
 public class F01FizzBuzz {
     public static void main(String[] args) {
-        String respuesta="";
-
-        for (int n=1;n<=100;n++) {
+        for (int n=1;n<=50;n++) {
 
             if (n%3==0 && n%5==0) {
-                respuesta +="fizzbuzz ";
+                System.out.print("fizzbuzz ");
             } else if (n%3==0) {
-                respuesta +="fizz ";
+                System.out.print("fizz ");
             } else if (n%5==0) {
-                respuesta +="buzz ";
+                System.out.print("buzz ");
             } else {
-                respuesta +=n+" ";
+                System.out.print(n+" ");
             }
         }
-        System.out.print(respuesta);
     }
 }
