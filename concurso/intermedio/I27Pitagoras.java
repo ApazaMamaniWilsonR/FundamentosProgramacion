@@ -20,7 +20,6 @@ public class I27Pitagoras {
         for (int i = 0; i < L3.length; i++) {
             if (n>=L3[i]){
                 System.out.println("("+L1[i]+" "+L2[i]+" "+L3[i]+")");
-
                 contador++;
             }
         }

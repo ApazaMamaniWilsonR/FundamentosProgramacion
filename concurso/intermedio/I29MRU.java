@@ -14,9 +14,8 @@ public class I29MRU {
         double vf=Double.parseDouble(JOptionPane.showInputDialog("ingrese la velocidad final"));
         double t=Double.parseDouble(JOptionPane.showInputDialog("ingrese la tiempo"));
 
-        if (t<1){
-            System.out.println("error");
-        }else{
+        if (0<t){
+            
             double vp=(vi+vf)/2;
             double d=vp*t;
             System.out.println("Velocidad inicial: "+vi+" m/s");
@@ -24,6 +23,8 @@ public class I29MRU {
             System.out.println("Velocidad promedio: "+vp+" m/s");
             System.out.println("Tiempo de recorrido: "+t+" m/s");
             System.out.println("Distancia recorrida: "+d+" m/s");
+        }else{
+            System.out.println("error");
 
         }
     }

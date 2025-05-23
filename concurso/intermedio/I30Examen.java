@@ -16,15 +16,5 @@ public class I30Examen {
 
         int total=puntoc+puntoi+puntob;
         JOptionPane.showMessageDialog(null, "su nota es: "+total);
-        /*Inicio
-        Solicitar al usuario el número de respuestas correctas.
-        Solicitar al usuario el número de respuestas incorrectas.
-        Solicitar al usuario el número de respuestas en blanco.
-        Calcular el puntaje de las respuestas correctas: puntoc = correctas × 3
-        Calcular el puntaje de las respuestas incorrectas (negativo): puntoi = incorrectas × (-1)
-        Calcular el puntaje de las respuestas en blanco: puntob = en blanco × 0
-        Calcular el puntaje total: total = puntoc + puntoi + puntob
-        Mostrar el puntaje total al usuario.
-        Fin */
     }
 }

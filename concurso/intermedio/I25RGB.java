@@ -5,29 +5,26 @@ HEX a RGB: hex:#000000 -> (r: 0, g: 0, b: 0)
 */
 public class I25RGB {
     public static void main(String[] args) {
-        int B=11;
-        int D=13;
-        int E=14;
-        int[] r={1,9,B,D,1,E};
+        int A=10,B=11,c=12,D=13,E=14,F=15;
+        int[] r={F,F,F,F,F,F};
         rgb(r);
-        int[] h={25,189,30};
+        int[] h={250,186,218};
         hex(h);
-
-
     }
     public static void rgb(int[] r) {
-        int rojo=(r[0]*16)+r[1];
+        int rojo=r[0]*16+r[1];
         int verde=r[2]*16+r[3];
         int azul=r[4]*16+r[5];
-        System.out.println("El equivalente es ("+rojo+","+verde+","+azul+")");
+        System.out.println("("+rojo+","+verde+","+azul+")");
     }
     public static void hex(int[] h) {
-        int r1=h[0]/16;
-        int r2=h[0]%16;
-        int g3=h[1]/16;
-        int g4=h[1]%16;
-        int b5=h[2]/16;
-        int b6=h[2]%16;
-        System.out.println(r1+","+r2+","+g3+","+g4+","+b5+","+b6);
+        System.out.print("#");
+        for (int i = 0; i < h.length; i++) {
+            int n1=h[i]/16;
+            int n2=h[i]%16;
+            char c1=(n1<10)?(char)('0'+n1):(char)('A'+(n1-10));
+            char c2=(n2<10)?(char)('0'+n2):(char)('A'+(n2-10));
+            System.out.print(""+c1+c2);
+        }
     }
 }
