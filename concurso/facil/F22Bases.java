@@ -3,6 +3,10 @@
 esas operaciones directamente..
 */
 public class F22Bases {
+    public static void main(String[] args) {
+        octal(100);
+        hexadecimal(100);
+    }
     public static void octal(int numero){
         String respuesta="";
         int original=numero;
@@ -20,9 +24,5 @@ public class F22Bases {
             numero=numero/16;
         }
         System.out.println(original+" en hexadecimal es: "+respuesta);
-    }
-    public static void main(String[] args) {
-        octal(100);
-        hexadecimal(100);
     }
 }

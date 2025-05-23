@@ -5,10 +5,9 @@ import javax.swing.JOptionPane;
 public class F25Venta {
     public static void main(String[] args) {
         int venta=Integer.parseInt(JOptionPane.showInputDialog("ingrese el precio: "));
-        double igv;
+        double igv=venta*0.18;
         double descuento=0;
         double total;
-        igv=venta*0.18;
         if (venta>=150000) {
             descuento=venta*0.25;
         }
