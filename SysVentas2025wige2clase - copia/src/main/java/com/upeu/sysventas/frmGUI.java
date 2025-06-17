@@ -121,7 +121,11 @@ public class frmGUI extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnVentaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVentaActionPerformed
-        // TODO add your handling code here:
+        frmVentas gui = new frmVentas();
+        gui.setTitle("Realizar venta");
+        gui.setLocationRelativeTo(null); // Centra la ventana
+        gui.show();
+        this.dispose();
     }//GEN-LAST:event_btnVentaActionPerformed
 
     private void btnReportesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnReportesActionPerformed

@@ -2,6 +2,7 @@ com\upeu\sysventas\frmProductos$3.class
 com\upeu\sysventas\frmClientes$8.class
 com\upeu\sysventas\frmLogin.class
 com\upeu\sysventas\frmClientes.class
+com\upeu\sysventas\frmVentas$3.class
 com\upeu\sysventas\frmProductos$8.class
 com\upeu\sysventas\frmClientes$3.class
 com\upeu\sysventas\frmGUI$2.class
@@ -11,9 +12,11 @@ com\upeu\sysventas\frmGUI$3.class
 com\upeu\sysventas\frmClientes$4.class
 com\upeu\sysventas\frmProductos$12.class
 com\upeu\sysventas\frmClientes$6.class
+com\upeu\sysventas\frmVentas$5.class
 com\upeu\sysventas\frmLogin$3.class
 com\upeu\sysventas\frmClientes$9.class
 com\upeu\sysventas\frmClientes$10.class
+com\upeu\sysventas\ConsultaDNI.class
 com\upeu\sysventas\frmClientes$1.class
 com\upeu\sysventas\frmGUI$5.class
 com\upeu\sysventas\frmProductos$5.class
@@ -23,7 +26,9 @@ com\upeu\sysventas\frmProductos$9.class
 com\upeu\sysventas\frmClientes$2.class
 com\upeu\sysventas\frmClientes$11.class
 com\upeu\sysventas\frmProductos$10.class
+com\upeu\sysventas\frmVentas$2.class
 com\upeu\sysventas\frmProductos$4.class
+com\upeu\sysventas\frmVentas$4.class
 com\upeu\sysventas\frmGUI.class
 com\upeu\sysventas\frmProductos$2.class
 com\upeu\sysventas\SysVentas2025.class
@@ -31,10 +36,13 @@ com\upeu\sysventas\frmClientes$7.class
 com\upeu\sysventas\frmProductos$7.class
 com\upeu\sysventas\frmGUI$4.class
 com\upeu\sysventas\frmProductos$6.class
+com\upeu\sysventas\frmVentas.class
 com\upeu\sysventas\frmProductos$11.class
 com\upeu\sysventas\frmGUI$1.class
 com\upeu\sysventas\frmProductos$1.class
 com\upeu\sysventas\frmProductos.class
+com\upeu\sysventas\frmVentas$1.class
 com\upeu\sysventas\frmLogin$2.class
+com\upeu\sysventas\frmVentas$6.class
 com\upeu\sysventas\Conexion.class
 com\upeu\sysventas\frmClientes$5.class
